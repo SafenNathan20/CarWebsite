@@ -1,0 +1,26 @@
+header{
+    width: 200px;
+    nav{
+        background-color: $third-color;
+        width: 200px;
+        a,
+        a:hover,
+        a:active{
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #393e4f;
+            font-family: 'Neucha', cursive;
+        }   
+        nav .navbar-brand {
+            font-family: 'Bangers', cursive;
+        }
+
+        nav .form-inline{
+            padding: 0px 30px 0px 0px;
+            margin-right:0px;
+        }
+        .loginbutton{
+            margin-left:780px;
+        }
+    }
+}

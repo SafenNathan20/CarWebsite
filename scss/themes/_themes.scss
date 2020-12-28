@@ -1,0 +1,13 @@
+body {
+	background-color: $primary-color;
+
+	.content{
+		background-color: $secondary-color;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	img {
+		max-width: 100%;
+	}	
+} 

@@ -1,0 +1,38 @@
+body#page-login {
+    form {
+        label {
+            font-family: 'Neucha', cursive;
+            color: #FFF;
+        }
+        &#registration-form {
+            background-color: $third-color;
+            padding: 10px;
+            border-radius: 3px;
+            label {
+                font-family: 'Neucha', cursive;
+                color: $third-color;
+            }
+            .btn {
+                background-color: $secondary-color;
+                color: $primary-color;
+                border: 0;
+            }
+        }
+        &#login-form {
+            background-color: $secondary-color;
+            padding: 10px;
+            border-radius: 3px;
+            label {
+                font-family: 'Neucha', cursive;
+                color: $third-color;
+            }
+            .btn {
+                background-color: $third-color;
+                color: $primary-color;
+                border: 0;
+                margin-right: 100px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,31 @@
+body#page-recipe {
+    .car-image {
+        border: solid 3px $primary-color;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        a {
+            display: block;
+            height: 150px;
+        }
+    }
+    p {
+        text-align: left;
+    } 
+    ul {
+        text-align: left;
+    }
+    .car-features {
+        list-style: none;
+        padding: 0;
+        color: $primary-color;
+        li{
+            color: $secondary-color;
+        }
+    }    
+}
